@@ -209,8 +209,10 @@ simple face detection
 
 
 # Compile
-to Compile a CV example, you should have to write this:
+```bash
+# to Compile a CV example, you should have to write this:
 g++ -std=c++11 -I /usr/include/opencv -I/usr/include/opencv2 -L/usr/lib/ "EXAMPLE/PATH.CPP" -o main -lopencv_core -lopencv_highgui -lopencv_video -lX11 -pthread
 
-if you want to compile a simple IA algorith, you should have to write this:
+# if you want to compile a simple IA algorith, you should have to write this:
 g++ -std=c++11 "EXAMPLE/PATH.CPP" -o main
+```
